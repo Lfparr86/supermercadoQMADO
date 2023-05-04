@@ -1,0 +1,82 @@
+/*--GLOBALES-- */
+:root {
+  --red: #FF003F;
+  --black: #0d0813;
+  --grey: #474c59;
+  --white: #d5dbe5;
+  --pureBlack: #000000;
+
+}
+*{
+    font-family: var(--tituloFont);
+}
+body{
+  background-color: gray;
+}
+a, button {
+  font-size: 2em;
+  font-family: var(--tituloFont);
+  text-decoration: none;
+}
+
+.goticColor{
+  background-color: #FF003F!important
+  
+}
+
+/*--HEADER Y NAV-- */
+
+.logo {
+  width: 15%;
+  height: auto;
+  margin: 2% 0;
+  
+}
+#navbar{
+  margin-bottom: 4rem;
+  width: 100%;
+  position:fixed;
+  transition: 0.5s;
+  z-index: 2000;
+}
+
+
+/*--MAIN-- */
+
+main{
+background-color:#F3F3F3
+}
+main img{
+  width: 65%;
+  border-radius: 2em;
+}
+main a:hover, main button:hover{
+  background-color: #ffeaeb
+}
+.cartaBorde{
+  border: 0!important;
+  padding: 0!important;
+  margin: 1em!important;
+}
+.formulario{
+  border-radius: 1em;
+
+}
+
+
+/*--MEDIA QUERIES-- */
+
+@media screen and (max-width: 780px) {
+  .logo {
+    width: 80%!important;
+  }
+  main img{
+    width: 80%;
+  }
+  .formulario{
+    width: 95%!important;
+  }
+}
+
+
+
