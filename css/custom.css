@@ -78,5 +78,12 @@ main a:hover, main button:hover{
   }
 }
 
+/*imagen*/
+
+.imgcategorias{
+  height: 50px;
+  width: 50px;
+}
+
 
 
